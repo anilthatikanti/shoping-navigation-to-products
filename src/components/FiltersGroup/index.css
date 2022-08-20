@@ -1,0 +1,74 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+.ratingStar {
+  width: 100px;
+  margin-right: 3px;
+}
+.clearContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.clearBtn {
+  border-color: #0967d2;
+  background-color: transparent;
+  border-radius: 3px;
+  color: #0967d2;
+  padding: 2px 10px;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+.searchInput {
+  background-color: #f1f5f9;
+  width: 200px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search {
+  border-width: 0px;
+  background-color: transparent;
+  outline: none;
+}
+.unList {
+  margin-left: -45px;
+}
+.list {
+  list-style-type: none;
+}
+.ratingBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.normalBtn {
+  color: #64748b;
+  border-width: 0px;
+  background-color: transparent;
+  padding: 7px;
+  cursor: pointer;
+}
+.selectedBtn {
+  color: #0967d2;
+  border-width: 0px;
+  background-color: transparent;
+  padding: 12px;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+/* Write your CSS here */
